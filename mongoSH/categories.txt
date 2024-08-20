@@ -1,0 +1,51 @@
+db.createCollection("categories");
+db.categories.insertMany([
+	{
+	  "_id": ObjectId("64b3e4a1c6789f2d4f423456"),
+	  "name": "Technology",
+	  "description": "Books related to technology and computing",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a157"),
+	  "name": "Fiction",
+	  "description": "Books related to Eco and computing",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a158"),
+	  "name": "Non-Fiction",
+	  "description": "Books related to technology and computing",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a159"),
+	  "name": "Science",
+	  "description": "Books related to Eco and computing",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a15a"),
+	  "name": "History",
+	  "description": "Books related to technology and computing",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a15b"),
+	  "name": "Biography",
+	  "description": "Books related to Eco and computing",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a15c"),
+	  "name": "Fantasy",
+	  "description": "Books related to technology and computing",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a15d"),
+	  "name": "Mystery",
+	  "description": "Books related to Eco and computing",
+	  "books": []
+	}	
+]);

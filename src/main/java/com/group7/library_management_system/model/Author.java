@@ -1,0 +1,28 @@
+package com.group7.library_management_system.model;
+
+import java.util.Date;
+import java.util.List;
+
+import org.bson.types.ObjectId;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.Indexed;
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
+
+import lombok.Data;
+
+@Data
+@Document(collection = "authors")
+public class Author {
+
+	@Id
+	@Field(name = "_id")
+	private ObjectId id;
+
+	@Indexed
+	private String name;
+
+	private Date birthdate;
+	private String nationality;
+	private List<ObjectId> books;
+}

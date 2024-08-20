@@ -1,0 +1,66 @@
+db.createCollection("authors");
+db.authors.insertMany([
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a14b"),	
+	  "name": "William Shakespeare 1",
+	  "birthdate": ISODate("1975-05-20T00:00:00Z"),
+	  "nationality": "United Kingdom",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a14c"),
+	  "name": "Jane Austen 2",
+	  "birthdate": ISODate("1975-05-20T00:00:00Z"),
+	  "nationality": "United Kingdom",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a14d"),
+	  "name": "John Doe 3",
+	  "birthdate": ISODate("1975-05-20T00:00:00Z"),
+	  "nationality": "American",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a14e"),	
+	  "name": "William Shakespeare 4",
+	  "birthdate": ISODate("1975-05-20T00:00:00Z"),
+	  "nationality": "United Kingdom",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a14f"),
+	  "name": "Jane Austen 5",
+	  "birthdate": ISODate("1975-05-20T00:00:00Z"),
+	  "nationality": "United Kingdom",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a150"),
+	  "name": "John Doe 6",
+	  "birthdate": ISODate("1975-05-20T00:00:00Z"),
+	  "nationality": "American",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a151"),	
+	  "name": "William Shakespeare 7",
+	  "birthdate": ISODate("1975-05-20T00:00:00Z"),
+	  "nationality": "United Kingdom",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a152"),
+	  "name": "Jane Austen 8",
+	  "birthdate": ISODate("1975-05-20T00:00:00Z"),
+	  "nationality": "United Kingdom",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a153"),
+	  "name": "John Doe 9",
+	  "birthdate": ISODate("1975-05-20T00:00:00Z"),
+	  "nationality": "American",
+	  "books": []
+	}	
+]);

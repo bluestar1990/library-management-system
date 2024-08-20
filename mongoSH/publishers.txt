@@ -1,0 +1,31 @@
+db.createCollection("publishers");
+db.publishers.insertMany([
+	{
+	  "_id": ObjectId("64b3e4a1c6789f2d4f323456"),
+	  "name": "1_ Tech Books Publishing",
+	  "address": "456 Tech St, San Francisco",
+	  "contact": "contact@techbooks.com",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a154"),
+	  "name": "2_ Tech Books Publishing",
+	  "address": "456 Tech St, San Francisco",
+	  "contact": "contact@techbooks.com",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a155"),
+	  "name": "3_ Tech Books Publishing",
+	  "address": "456 Tech St, San Francisco",
+	  "contact": "contact@techbooks.com",
+	  "books": []
+	},
+	{
+	  "_id": ObjectId("66b393c20fedba3fab70a156"),
+	  "name": "4 _Tech Books Publishing",
+	  "address": "456 Tech St, San Francisco",
+	  "contact": "contact@techbooks.com",
+	  "books": []
+	}	
+]);
